@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<style>
+			body{
+				background: linear-gradient(to right, black, darkgreen, lightblue);
+				font-family: TimesNewRoman;
+			}
+			.main-container{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height:100vh;
+			}
+			.sub-container{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#form {
+				width: 200px;
+				margin: 20px;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 10px 10px 10px 10px;
+				background-color: white;
+			}
+			#form h1{
+				text-align: center;
+			}
+			#form button{
+				width:200px;
+				padding:20px;
+				background-color: blue;
+			} 
+		</style>
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="sub-container">
+				<form id="form" action="./registration.html">
+					<h1>Registration Form</h1>
+					<div class="internal">
+						<label>Username:</label>
+						<br>
+						<input type="text">
+					</div>
+					<div class="internal">
+						<label>Email:</label>
+						<br>
+						<input type="text">
+					</div>
+					<div class="internal">
+						<label>Password:</label>
+						<br>
+						<input type="password">
+					</div>
+					<div class="internal">
+						<label>Re-type pass:</label>
+						<br>
+						<input type="password">
+					</div>
+					<div class="internal">
+						<a href="./registration.html">Forgot Username?</a>
+						<a href="./registration.html">Forgot Password?</a>
+					</div>
+					<div class="bt">
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>				
